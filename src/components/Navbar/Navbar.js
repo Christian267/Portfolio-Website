@@ -21,22 +21,22 @@ export const Navbar = ({toggle}) => {
                     <Bars onClick={toggle}/>
                     <NavMenu>
                         <NavItem>
-                            <NavLink to='about'>
+                            <NavLink to='#header'>
                                 About
                             </NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink to='resume'>
+                            <NavLink to='#resume'>
                                 Resume
                             </NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink to='skills'>
+                            <NavLink to='#skills'>
                                 Skills
                             </NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink to='projects'>
+                            <NavLink to='#projects'>
                                 Projects
                             </NavLink>
                         </NavItem>

@@ -12,10 +12,9 @@ export const Nav = styled.nav`
   margin-right: 5%;
   align-items: start;
   font-size: 1rem;
-  position: sticky;
+  font-weight: bold;
   top: 0;
   z-index: 10;
-  font-weight: bold;
   @media screen and (max-width: 850px) {
       transition: 0.8 all ease;
       margin-right: 0;

@@ -1,0 +1,16 @@
+@import "../../global.scss";
+
+.header {
+    background-color: $headerColor;
+    width: 95%;
+    margin-right: $singleMarginSize;
+    border-bottom-right-radius: $singleBorderRadius;
+    padding: 0.5rem calc((90vw - 1000px) / 2);
+
+    @media screen and (max-width: 850px) {
+        transition: 0.8 all ease;
+        margin-right: 0;
+        border-bottom-right-radius: 0;
+
+    }
+}

@@ -17,16 +17,16 @@ export const Topbar = ({isOpen, toggle}) => {
             </Icon>
             <SidebarWrapper>
                 <SidebarMenu>
-                    <SidebarLink to='about'>
+                    <SidebarLink to='about' onClick={toggle}>
                         About
                     </SidebarLink>
-                    <SidebarLink to='resume'>
+                    <SidebarLink to='resume' onClick={toggle}>
                         Resume
                     </SidebarLink>
-                    <SidebarLink to='skills'>
+                    <SidebarLink to='skills' onClick={toggle}>
                         Skills
                     </SidebarLink>
-                    <SidebarLink to='projects'>
+                    <SidebarLink to='projects' onClick={toggle}>
                         Projects
                     </SidebarLink>
                 </SidebarMenu>
