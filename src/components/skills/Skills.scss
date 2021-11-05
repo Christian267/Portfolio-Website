@@ -1,3 +1,16 @@
+@import "../../global.scss";
 .skills {
-    background-color: lightskyblue;
+    background-color: $highlightColor;
+    width: 95%;
+    height: 80vh;
+    margin-left: $singleMarginSize;
+    border-top-left-radius: $singleBorderRadius;
+    padding: 0.5rem calc((90vw - 1000px) / 2);
+
+    @media screen and (max-width: 850px) {
+        transition: 0.8 all ease;
+        margin-left: 0;
+        width: 100%;
+
+    }
 }

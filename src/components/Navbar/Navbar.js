@@ -20,24 +20,24 @@ export const Navbar = ({toggle}) => {
                     </NavLogo>
                     <Bars onClick={toggle}/>
                     <NavMenu>
-                        <NavItem>
-                            <NavLink to='#header'>
+                        <NavItem href='#header'>
+                            <NavLink to='header' smooth={true} duration={500} spy={true} exact='true'>
                                 About
                             </NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink to='#resume'>
-                                Resume
+                            <NavLink to='projects' smooth={true} duration={500} spy={true} exact='true'>
+                                Projects
                             </NavLink>
                         </NavItem>
-                        <NavItem>
-                            <NavLink to='#skills'>
+                        <NavItem >
+                            <NavLink to='skills' smooth={true} duration={500} spy={true} exact='true'>
                                 Skills
                             </NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink to='#projects'>
-                                Projects
+                            <NavLink to='resume' smooth={true} duration={500} spy={true} exact='true'>
+                                Resume
                             </NavLink>
                         </NavItem>
                     </NavMenu>

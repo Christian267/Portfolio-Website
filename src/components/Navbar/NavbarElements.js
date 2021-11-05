@@ -45,7 +45,7 @@ export const NavLogo = styled(LinkR)`
   text-decoration: none;
 `
 
-export const NavLink = styled(LinkR)`
+export const NavLink = styled(LinkS)`
   color: #63607A;
   opacity: 0.7;
   display: flex;

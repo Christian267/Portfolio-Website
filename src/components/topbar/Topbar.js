@@ -17,17 +17,17 @@ export const Topbar = ({isOpen, toggle}) => {
             </Icon>
             <SidebarWrapper>
                 <SidebarMenu>
-                    <SidebarLink to='about' onClick={toggle}>
+                    <SidebarLink to='header' onClick={toggle} smooth={true} duration={500} spy={true} exact='true'>
                         About
                     </SidebarLink>
-                    <SidebarLink to='resume' onClick={toggle}>
-                        Resume
+                    <SidebarLink to='projects' onClick={toggle} smooth={true} duration={500} spy={true} exact='true'>
+                        Projects
                     </SidebarLink>
-                    <SidebarLink to='skills' onClick={toggle}>
+                    <SidebarLink to='skills' onClick={toggle} smooth={true} duration={500} spy={true} exact='true'>
                         Skills
                     </SidebarLink>
-                    <SidebarLink to='projects' onClick={toggle}>
-                        Projects
+                    <SidebarLink to='resume' onClick={toggle} smooth={true} duration={500} spy={true} exact='true'>
+                        Resume
                     </SidebarLink>
                 </SidebarMenu>
                 <SideBtnWrap>

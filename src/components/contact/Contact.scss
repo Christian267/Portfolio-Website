@@ -1,3 +1,23 @@
+@import "../../global.scss";
+
+.contact-container {
+    height: 50vh;
+    background-color: $highlightColor;
+    padding: 0;
+}
+
 .contact {
-    background-color: lightcoral;
+    background-color: $highlightSecondaryColor;
+    width: 95%;
+    height: 100%;
+    margin-top:0;
+    margin-right: $singleMarginSize;
+    border-top-right-radius: $singleBorderRadius;
+    padding: 0.5rem calc((90vw - 1000px) / 2);
+    z-index: 1;
+    @media screen and (max-width: 850px) {
+        transition: 0.8 all ease;
+        margin-right: 0;
+        width: 100%;
+    }
 }

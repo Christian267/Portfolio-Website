@@ -16,12 +16,13 @@ export const HomePage = () => {
         setIsOpen(!isOpen);
     };
 
+
     return (
         <div>    
-            <Topbar isOpen={isOpen} toggle={toggle}/>
-            <Navbar toggle={toggle}/>
+            <Topbar isOpen={isOpen} toggle={toggle} />
+            <Navbar toggle={toggle} />
             <div className='sections'>
-                <Header />
+                <Header  />
                 <Projects />
                 <Skills />
                 <Contact />
