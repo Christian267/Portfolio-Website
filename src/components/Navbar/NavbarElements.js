@@ -1,5 +1,4 @@
 import { FaBars } from 'react-icons/fa';
-import { Link as LinkR } from 'react-router-dom';
 import { Link as LinkS } from 'react-scroll';
 import styled from 'styled-components';
 
@@ -33,7 +32,7 @@ export const NavbarContainer = styled.div `
   max-width: 1100px;
 `
 
-export const NavLogo = styled(LinkR)`
+export const NavLogo = styled(LinkS)`
   color: #221e41;
   justify-self: flex-start;
   cursor: pointer;

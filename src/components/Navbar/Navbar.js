@@ -43,7 +43,9 @@ export const Navbar = ({toggle}) => {
                     </NavMenu>
                 </NavbarContainer>
                     <NavBtn>
-                        <NavBtnLink to='/signin'>Contact</NavBtnLink>
+                        <NavBtnLink to='contact' smooth={true} duration={500} spy={true} exact='true'>
+                            Contact 
+                        </NavBtnLink>
                     </NavBtn>
             </Nav>
         </>

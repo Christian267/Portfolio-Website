@@ -10,10 +10,12 @@
     height: calc(100vh - 80px);
     position: relative;
     scroll-behavior: smooth;
+    
     > * {
       width: 100vw;
       height: 85vh;
       padding: 0.5rem calc((90vw - 1000px) / 2);
+      min-height: 600px;
       
     }
   }
