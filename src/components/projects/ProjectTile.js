@@ -10,7 +10,7 @@ export const ProjectTile = ({ title, description, buttonText, image, hoverImage,
             </div>
             <div className='img-container'>
                 <img src={image} alt='Project' className='primary-image'/>
-                <img src={hoverImage} className='alt-image'/>
+                <img src={hoverImage} alt='alt' className='alt-image'/>
             </div>
         </div>
     );
