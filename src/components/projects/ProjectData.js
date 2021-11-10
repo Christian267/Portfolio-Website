@@ -4,8 +4,8 @@ import chessAppImage1 from './images/chessapp1.png';
 import cityQolImage1 from './images/cityQol1.png';
 import mLImage1 from './images/facenet.png';
 import mouseAndKeyImage1 from './images/mouse-and-keyboard.png';
-export const projectData = [];
 
+export const projectData = [];
 
 projectData.push({
     title: 'Pathfinding Visualization',
