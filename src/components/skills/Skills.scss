@@ -25,28 +25,48 @@
         justify-content: center;
         align-items: center;
         color: $highlightTextSecondary;
+        padding: 10px 0 20px 0;
     }
 
     .skills-grid {
-        margin: 0 0 0 40px;
+        margin: 0 0 80px 0;
 
         display: grid;
         grid-template-columns: repeat(4, 1fr);
+        padding: 0;
+        
 
         .skills-item {
-            border: 1px solid #cdcbdf63;
             display: flex;
+            position: relative;
             justify-content: center;
             align-items: center;
-            height: 100px;
-            width: 150px;
+            height: 150px;
+            width: 200px;
+            padding: .25em;
+            border: 1px solid #784BFF;
 
             * {
                 color: $highlightTextSecondary;
-                opacity: 80%;
-                height: 75%;
+                height: 70%;
                 width: auto;
+
             }
+
+            .skills-item-name {
+                position: absolute;
+                top: 0px;
+                right: 0px;
+                height: auto;
+                margin: 0;
+                background-color: rgba(34,30,65,0.2);
+                color: $highlightTextColor;
+                padding: 0.25em;
+                font-size: 9px;
+                font-weight: bold;
+            }
+
+            
         }
     } 
 

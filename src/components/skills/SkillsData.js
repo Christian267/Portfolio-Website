@@ -1,30 +1,85 @@
 import { React } from 'react';
-import { FaPython } from 'react-icons/fa';
-import { FaJava } from 'react-icons/fa';
-import { SiJavascript } from 'react-icons/si';
+import { FaAws, FaDocker, FaGithub, FaJava, FaPython, FaReact } from 'react-icons/fa';
+import { SiCss3, SiFlask, SiJavascript, SiMongodb, SiPostgresql, SiSpring } from 'react-icons/si';
 import { TiHtml5 } from 'react-icons/ti';
-import { SiCss3 } from 'react-icons/si';
+
 export const SkillsData = [];
 
 
-const languageIcons = [];
-languageIcons.push(<FaPython />);
-languageIcons.push(<FaJava />);
-languageIcons.push(<SiJavascript />);
-languageIcons.push(<TiHtml5 />);
-languageIcons.push(<SiCss3 />);
+const backendIcons = [
+    {
+        icon: <FaPython />,
+        name: 'Python'
+    },
+    {
+        icon: <FaJava />,
+        name: 'Java'
+    },
+    {
+        icon: <SiFlask />,
+        name: 'Flask'
+    },
+    {
+        icon: <SiSpring />,
+        name: 'Spring'
+    },
+    {
+        icon: <SiPostgresql />,
+        name: 'PostgreSQL'
+    },
+    {
+        icon: <SiMongodb />,
+        name: 'MongoDB'
+    },
+];
 
-SkillsData.push ({
-    title: 'Languages',
-    icons: languageIcons,
+SkillsData.push({
+    title: 'Backend',
+    skills: backendIcons
 });
 
-SkillsData.push ({
-    title: 'Frameworks',
-    icons: languageIcons,
-})
+
+const frontendIcons = [
+    {
+        icon: <SiJavascript />,
+        name: 'JavaScript'
+    },
+    {
+        icon: <FaReact />,
+        name: 'React'
+    },
+    {
+        icon: <TiHtml5 />,
+        name: 'HTML'
+    },
+    {
+        icon: <SiCss3 />,
+        name: 'CSS'
+    }
+];
 
 SkillsData.push ({
-    title: 'General',
-    icons: languageIcons,
-})
+    title: 'Frontend',
+    skills: frontendIcons
+});
+
+
+const deploymentIcons = [
+    {
+        icon: <FaDocker />,
+        name: 'Docker'
+    },
+    {
+        icon: <FaAws />,
+        name: 'AWS'
+    },
+    {
+        icon: <FaGithub />,
+        name: 'Github'
+    }
+];
+
+SkillsData.push ({
+    title: 'Deployment',
+    skills: deploymentIcons
+});
