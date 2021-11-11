@@ -1,7 +1,6 @@
 import { React } from 'react';
-import { FaAws, FaDocker, FaGithub, FaJava, FaPython, FaReact } from 'react-icons/fa';
-import { SiCss3, SiFlask, SiJavascript, SiMongodb, SiPostgresql, SiSpring } from 'react-icons/si';
-import { TiHtml5 } from 'react-icons/ti';
+import { FaAws, FaDocker, FaGitAlt, FaGithub, FaJava, FaPython, FaReact } from 'react-icons/fa';
+import { SiCss3, SiFlask, SiHtml5, SiJavascript, SiMongodb, SiPostgresql, SiSpring } from 'react-icons/si';
 
 export const SkillsData = [];
 
@@ -49,7 +48,7 @@ const frontendIcons = [
         name: 'React'
     },
     {
-        icon: <TiHtml5 />,
+        icon: <SiHtml5 />,
         name: 'HTML'
     },
     {
@@ -64,7 +63,7 @@ SkillsData.push ({
 });
 
 
-const deploymentIcons = [
+const generalIcons = [
     {
         icon: <FaDocker />,
         name: 'Docker'
@@ -76,10 +75,14 @@ const deploymentIcons = [
     {
         icon: <FaGithub />,
         name: 'Github'
+    },
+    {
+        icon: <FaGitAlt />,
+        name: 'Git'
     }
 ];
 
 SkillsData.push ({
-    title: 'Deployment',
-    skills: deploymentIcons
+    title: 'General',
+    skills: generalIcons
 });
