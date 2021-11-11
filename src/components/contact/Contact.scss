@@ -1,23 +1,98 @@
 @import "../../global.scss";
 
-.contact-container {
-    height: 600px;
+.contact-section {
+    color: #fff;
+    height: auto;
+    width: 100%;
     background-color: $highlightColor;
     padding: 0;
-}
 
-.contact {
-    background-color: $highlightSecondaryColor;
-    width: 95%;
-    height: 100%;
-    margin-top:0;
-    margin-right: $singleMarginSize;
-    border-top-right-radius: $singleBorderRadius;
-    padding: 0.5rem calc((90vw - 1000px) / 2);
-    z-index: 1;
-    @media screen and (max-width: $transitionWidth) {
-        transition: 0.8 all ease;
-        margin-right: 0;
-        width: 100%;
+    h1 {
+        margin-top: 30px;
+    }
+
+    .contact {
+        background-color: $highlightSecondaryColor;
+        width: 95%;
+        height: 100%;
+        margin-right: $singleMarginSize;
+        border-top-right-radius: $singleBorderRadius;
+        padding: 0.5rem calc((90vw - 1000px) / 2);
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        
+        .contact-form-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 450px;
+    
+            form {
+                width: 80%;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-around;
+    
+                input {
+                    width: 375px;
+                    height: 40px;
+                    font-size: 16px;
+                }
+    
+                textarea {
+                    width: 375px;
+                    height: 250px;
+                    font-size: 16px;
+                }
+    
+                button {
+                    width: 150px;
+                    height: 30px;
+                    color: #fff;
+                    background-color: $highlightColor;
+                    border: none;
+                    border-radius: 10px;
+                    font-weight: 500;
+                    cursor: pointer;
+                }
+            }
+        }
+    
+        .info {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: flex-start;
+            margin: 50px 0 50px 0;
+            gap: 80px;
+    
+            .info-group {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: flex-start;
+                gap: 30px;
+            }
+    
+            a {
+                text-decoration: none;
+                color: #fff;
+    
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+        @media screen and (max-width: $transitionWidth) {
+            transition: 0.8 all ease;
+            margin-right: 0;
+            width: 100%;
+        }
     }
 }

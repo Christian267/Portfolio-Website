@@ -1,7 +1,8 @@
 @import '../../global.scss';
 .projects {
     width: 100%;
-    margin: 0 2.5% 150px;
+    margin-right: $singleMarginSize;
+    margin-bottom: 150px;
     height: auto;
     display: flex;
     flex-direction: column;

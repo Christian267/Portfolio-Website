@@ -20,11 +20,6 @@ export const Navbar = ({toggle}) => {
                     </NavLogo>
                     <Bars onClick={toggle}/>
                     <NavMenu>
-                        <NavItem href='#header'>
-                            <NavLink to='header' smooth={true} duration={500} spy={true} exact='true'>
-                                About
-                            </NavLink>
-                        </NavItem>
                         <NavItem>
                             <NavLink to='projects' smooth={true} duration={500} spy={true} exact='true'>
                                 Projects
