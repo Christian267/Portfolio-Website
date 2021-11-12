@@ -3,10 +3,11 @@
 .header {
     background-color: $headerColor;
     width: 95%;
-    height: var(auto + 200px);
+    height: auto;
     margin-right: $singleMarginSize;
     border-bottom-right-radius: $singleBorderRadius;
     padding: 0.5rem calc((90vw - 1000px) / 2);
+    padding-bottom: 60px;
 
     .header-grid {
         display: grid;
@@ -52,7 +53,7 @@
     }
 
     span {
-        width: 88vw;
+        width: 95vw;
         display: inline;
         position: absolute;
         left: 0px;
@@ -69,7 +70,7 @@
 
                 content: "";
                 display: inline-block;
-                width: 80%;
+                width: 60%;
                 vertical-align: middle;
                 border-top: 1px solid;
                 margin: 0px 10px 0 0;
@@ -97,7 +98,8 @@
 
     @media screen and (max-width: $transitionWidth) {
         margin-right: 0;
-        height: auto;
+        padding-bottom: 60px;
+
         .header-grid {
             display: flex;
             flex-direction: column;
@@ -130,13 +132,7 @@
         }
         
         span {
-            width: 88vw;
-            display: inline;
-            position: relative;
-            left: 0px;
-
             h5{
-
                 &:before {
                     display:none;
                 }

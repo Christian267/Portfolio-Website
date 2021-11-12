@@ -8,6 +8,7 @@ export const Nav = styled.nav`
   display: flex;
   justify-content: start;
   padding: 0.5rem calc((90vw - 1000px) / 2);
+  width: 95%;
   margin-right: 5%;
   align-items: start;
   font-size: 1rem;
@@ -69,7 +70,7 @@ export const Bars = styled(FaBars)`
     display: block;
     position: absolute;
     top: .5em;
-    right: 10px;
+    right: 5%;
     transform: translate(-100%, 60%);
     font-size: 1.8rem;
     cursor: pointer;
