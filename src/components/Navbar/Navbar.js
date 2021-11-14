@@ -25,7 +25,7 @@ export const Navbar = ({toggle}) => {
                                 Projects
                             </NavLink>
                         </NavItem>
-                        <NavItem >
+                        <NavItem>
                             <NavLink to='skills' smooth={true} duration={500} spy={true} exact='true'>
                                 Skills
                             </NavLink>
