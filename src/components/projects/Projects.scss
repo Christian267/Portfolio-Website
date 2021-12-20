@@ -32,9 +32,9 @@ align-items: center;
             background-color: rgb(240, 234, 234);
             display: flex;
             justify-content: center;
-            border-radius: 12px;
-            max-width: 840px; 
-            height: 350px;
+            border-radius: 0px;
+            max-width: 860px; 
+            height: 360px;
             overflow: hidden;
             box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 
@@ -57,8 +57,9 @@ align-items: center;
                 }
 
                 button {
+                    font-size: 17px;
                     border: 0px;
-                    border-radius: 12px;
+                    border-radius: 20px;
                     width: 10em;
                     height: 2.5em;
                     background-color: $highlightColor;
@@ -103,10 +104,11 @@ align-items: center;
             width: 90%;
             margin: 0 auto;
             max-width: 504px;
-            height: 600px;
+            height: 650px;
             
             .text {
                 flex-basis: 40%;
+                padding: 3em 3em 2em 3em;
             }
 
             .img-container {

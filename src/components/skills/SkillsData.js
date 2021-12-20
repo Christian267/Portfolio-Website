@@ -73,16 +73,16 @@ const generalIcons = [
         name: 'AWS'
     },
     {
-        icon: <FaGithub />,
-        name: 'Github'
-    },
-    {
         icon: <FaGitAlt />,
         name: 'Git'
+    },
+    {
+        icon: <FaGithub />,
+        name: 'Github'
     }
 ];
 
 SkillsData.push ({
-    title: 'General',
+    title: 'Deployment and Version Control',
     skills: generalIcons
 });

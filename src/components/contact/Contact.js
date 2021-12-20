@@ -12,15 +12,9 @@ export const Contact = () => {
     return (
         <div className='contact-section'>
             <div className='contact' id='contact'>
-                <h1>Email Me</h1>
-                <div className='contact-form-container'>
-                    <form onSubmit={handleSubmit}>
-                        <input type='text' placeholder='Email'/>
-                        <textarea placeholder='Message'></textarea>
-                        <button type='submit'>Send</button>
-                        {message && <span>Thanks, I'll get back to you ASAP!</span>}
-                    </form>
-                </div>
+                <h1>Contact Me</h1>
+                <h3>Christian Benitez</h3>
+                <p>Christian.Benitez2797@gmail.com</p>
                 <div className='info'>
                     <div className='info-group'>
                         <a href='#header'>About Me</a>

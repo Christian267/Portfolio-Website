@@ -68,7 +68,7 @@
             color: $secondaryTextColor;
 
             &:before {   
-                opacity: 30%;
+                opacity: .30;
 
                 content: "";
                 display: inline-block;
@@ -82,7 +82,7 @@
                 margin-left: 25px;
                 height: 30px;
                 width: auto;
-                opacity: 80%;
+                opacity: .80;
             }
         }
         
@@ -151,11 +151,8 @@
         }
         .description {
             p{
-                font-size: 16px;
+                font-size: 17px;
             }
-        }
-        img {
-            max-width: 240px;
         }
     }
 

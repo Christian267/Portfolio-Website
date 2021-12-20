@@ -6,7 +6,7 @@ export const Projects = () => {
 
     return (
         <div className='projects' id='projects'>
-            <h2 className='project-title'>My Projects</h2>
+            <h2 className='project-title'>Projects</h2>
             <div className='tile-container'>
                 {projectData.map(project => <ProjectTile {...project}/>)}
             </div>
