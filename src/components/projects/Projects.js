@@ -2,6 +2,7 @@ import React from 'react';
 import './Projects.scss';
 import { ProjectTile } from './ProjectTile';
 import { projectData } from './ProjectData';
+
 export const Projects = () => {
 
     return (
