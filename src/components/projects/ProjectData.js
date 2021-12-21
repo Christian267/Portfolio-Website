@@ -20,7 +20,7 @@ export const projectData = [
         buttonText: 'View Webpage',
         image: chessAppImage1,
         hoverImage: chessAppImage1,
-        link: 'http://chessapplication4-env.eba-u7exvhmc.us-east-2.elasticbeanstalk.com/'
+        link: 'https://chess.iamchristianbenitez.com/'
     },
     {
         title: 'City Quality of Life Dashboard',
