@@ -11,7 +11,7 @@ export const Header = () => {
                     <img src={portrait} alt='Christian'/>
                 </div>
                 <div className='intro'><h1>Hi, my name is Christian Benitez.</h1></div>
-                <div className='description'><p>I am an aspiring software engineer, focusing on backend web development.</p></div>
+                <div className='description'><p>I am a self taught software engineer, focusing on web development.</p></div>
             </div>
             <span><h5>Christian.benitez2797@gmail.com<a href='https://github.com/christian267'><FaGithub className='icon'/></a></h5></span>
         </div>
