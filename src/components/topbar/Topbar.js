@@ -26,12 +26,12 @@ export const Topbar = ({isOpen, toggle}) => {
                     <SidebarLink to='skills' onClick={toggle} smooth={true} duration={500} spy={true} exact='true'>
                         Skills
                     </SidebarLink>
-                    <SidebarLink to='resume' onClick={toggle} smooth={true} duration={500} spy={true} exact='true'>
-                        Resume
+                    <SidebarLink to='contact' onClick={toggle} smooth={true} duration={500} spy={true} exact='true'>
+                        Contact
                     </SidebarLink>
                 </SidebarMenu>
                 <SideBtnWrap>
-                    <SidebarRoute to='/contact'>Contact</SidebarRoute>
+                    <SidebarRoute to='/resume'>Resume</SidebarRoute>
                 </SideBtnWrap>
             </SidebarWrapper>
         </SidebarContainer>

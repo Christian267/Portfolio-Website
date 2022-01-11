@@ -3,7 +3,6 @@ import React from 'react';
 
 export const SkillsGrid = ({ title, skills }) => {
     const gridLength = skills.length;
-    console.log(title + gridLength);
     return (
         <>
             <h3 className='skills-title'>{title}</h3>
