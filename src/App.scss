@@ -30,3 +30,16 @@ h1 h2 h3 h4 h5 h6 {
   font-family: 'Arvo', 'Impact', 'Arial Black', serif;
   background-color: green;
 }
+
+.resume-container {
+  display: flex;
+  border: 1px dashed salmon;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+  overflow: scroll;
+
+  .page {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  }
+}
