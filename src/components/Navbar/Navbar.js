@@ -5,7 +5,7 @@ import {Nav,
      NavLogo,
      NavMenu,
      NavItem,
-     NavLink,
+     ScrollLink,
      NavBtn,
      NavBtnLink 
 } from './NavbarElements';
@@ -21,25 +21,25 @@ export const Navbar = ({toggle}) => {
                     <Bars onClick={toggle}/>
                     <NavMenu>
                         <NavItem>
-                            <NavLink to='projects' smooth={true} duration={500} spy={true} exact='true'>
+                            <ScrollLink to='projects' smooth={true} duration={500} spy={true} exact='true'>
                                 Projects
-                            </NavLink>
+                            </ScrollLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink to='skills' smooth={true} duration={500} spy={true} exact='true'>
+                            <ScrollLink to='skills' smooth={true} duration={500} spy={true} exact='true'>
                                 Skills
-                            </NavLink>
+                            </ScrollLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink to='resume' smooth={true} duration={500} spy={true} exact='true'>
-                                Resume
-                            </NavLink>
+                            <ScrollLink to='contact' smooth={true} duration={500} spy={true} exact='true'>
+                                Contact
+                            </ScrollLink>
                         </NavItem>
                     </NavMenu>
                 </NavbarContainer>
                     <NavBtn>
-                        <NavBtnLink to='contact' smooth={true} duration={500} spy={true} exact='true'>
-                            Contact 
+                        <NavBtnLink to='/resume'>
+                            Resume 
                         </NavBtnLink>
                     </NavBtn>
             </Nav>

@@ -1,5 +1,6 @@
 import { FaBars } from 'react-icons/fa';
 import { Link as LinkS } from 'react-scroll';
+import { NavLink as LinkR } from 'react-router-dom';
 import styled from 'styled-components';
 
 export const Nav = styled.nav`
@@ -45,7 +46,7 @@ export const NavLogo = styled(LinkS)`
   text-decoration: none;
 `
 
-export const NavLink = styled(LinkS)`
+export const ScrollLink = styled(LinkS)`
   color: #63607A;
   opacity: 0.7;
   display: flex;
@@ -114,7 +115,7 @@ export const NavBtn = styled.nav`
   }
 `;
 
-export const NavBtnLink = styled(LinkS)`
+export const NavBtnLink = styled(LinkR)`
   border-radius: 4px;
   background: #00ADFF;
   margin: 20px;
